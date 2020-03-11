@@ -1,0 +1,77 @@
+body { 
+    border: 10px silver groove; 
+    padding: 10px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+#body {
+    background-color: red;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+header {
+    grid-column: 1 / 4;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px white;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h5 {
+    grid-column: 3 / 4;
+    justify-items: end;
+}
+
+.bigger {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-weight: bolder;
+
+}
+
+.biggerbigger {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-weight: bolder;
+
+}
+
+div.bigger button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.columnAlign {
+    grid-column: 1 / 4;
+}
+
+#addSubAnswer {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#multiAnswer{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#divAnswer {
+    font-size: 50px;
+    font-weight: bold;
+}

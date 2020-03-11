@@ -1,0 +1,7 @@
+plusMinus.addEventListener("click", function() {
+    if (plusMinus.textContent == "+") {
+        plusMinus.textContent = "-"
+    } else {
+        plusMinus.textContent = "+"
+    }
+})
