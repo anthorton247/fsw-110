@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Mario's Pest Control
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class=gridContainer>
+        <div class = "box1">
+            <header>
+                <h1>
+                    Mario's Pest Control
+                </h1>
+            </header>
+        </div>
+        <div class = "box2">
+            <nav>
+
+            </nav>
+        </div>
+        <div class = box3>
+            <main>
+                Welcome to Mario's pest control. Please add up the total pests from the 3 different types then hit submit for your total.
+            </main>
+        </div>
+        <div class = "box4">
+            <img class = "cheepCheep" src="./1200px-CheepCheepNSMBU.png">
+            <span>Cheep Cheep</span>
+            <span>Cost: 11 Coins</span>
+            <form name="cheepCheep">
+                <input name= "cheepCount" type= "number">
+                <button id= "cheepButton" type="button">WAHOO!</button>
+            </form>
+            <img class = "bobOmb" src="Bob-omb,_New_Super_Mario_Bros._U.png">
+            <span>Bob-Omb</span>
+            <span>Cost: 7 Coins</span>
+            <form name="bobOmb">
+                <input name="bobCount" type = "number">
+                <button id= "bobButton" type ="button">WAHOO!</button>
+            </form>
+            <img class = "goomba" src="200px-Goomba_-_MarioPartyStarRush.png">
+            <span>Goomba</span>
+            <span>Cost: 5 Coins</span>
+            <form name="goomba">
+                <input name="goombaCount" type = "number">
+                <button id= "goombaButton" type ="button">WAHOO!</button>
+            </form>
+        </div>
+        <div class= "box5">
+            <h3>Total Cheep Cheeps:</h3>
+            <h3>Total Bob-Ombs:</h3>
+            <h3>Total Goombas:</h3>
+        </div>
+        <div class= "box6">
+            <h3 id = "totalCheeps">0</h3>
+            <h3 id = "totalBobs">0</h3>
+            <h3 id = "totalGoombas">0</h3>
+        </div>
+        <div class = "box8">
+            <h3>Total Price</h3>
+            <h3 id = "totalPrice"></h3>
+        </div>
+        <div class = "box7">
+            <footer>
+                <span>
+                    Email: MariosWorld@gmail.com 
+                </span>
+                <span>
+                    Address: 5 Mushroom Lane
+                <span> 
+                <span>
+                    Company website: NintendoPest.com
+                </span>
+            </footer>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
